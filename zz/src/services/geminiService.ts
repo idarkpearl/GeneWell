@@ -1,7 +1,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { PatientProfile, AnalysisResult, ChatMessage } from '../types';
 
-const apiKey = "AIzaSyByytgeiLDc65VTEt-8OO-grZmgaIjobKg"
+const apiKey = "Your Gemini API Key..............."
 if (!apiKey) {
   throw new Error("API_KEY environment variable is missing.");
 }
